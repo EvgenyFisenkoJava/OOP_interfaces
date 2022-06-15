@@ -25,8 +25,4 @@ public abstract class Vehicle {
     public void setWheelsCount() {
         this.wheelsCount = wheelsCount;
     }
-
-
-    public void check(Vehicle vehicle) {
-    }
 }

@@ -6,7 +6,7 @@ public class Truck extends Vehicle implements ServiceTyre, ServiceEngine, Servic
         super(modelName, wheelsCount);
     }
     @Override
-    public void check(Vehicle vehicle) {
+    public void check() {
         System.out.println("Обслуживаем " + this.getModelName());
         for (int i = 0; i < this.getWheelsCount(); i++) {
             this.updateTyre();
@@ -28,6 +28,4 @@ public class Truck extends Vehicle implements ServiceTyre, ServiceEngine, Servic
     public void updateTyre() {
         System.out.println("Проверяем прицеп");
     }
-
-
 }
