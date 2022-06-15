@@ -22,5 +22,6 @@ public class Main {
         station.check(car2);
         station.check(truck1);
         station.check(truck2);
+        
     }
 }
